@@ -5,3 +5,13 @@ I made this for fun, and to help people who have the same intentions of making a
 And also discord OAuth2
 
 Soon visible at - https://chat.infiinite.me
+
+### Requirements
+Install python then just do
+```
+pip install -r requirements.txt
+```
+This will install all the required packages to run this project!
+
+### Tip
+Don't use python 3.11
