@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151515;
+    flex-direction: row;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    
+}
+
+.chat-container {
+    height: 100%;
+    width: 100%;
+}
+
+.head {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.head img {
+    height: 80%;
+    width: auto;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.head .first-half {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    padding: 0px;
+    text-align: left;
+
+}
+
+.head .first-half .info-object {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #37363a;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: auto;
+    margin-left: 10px;
+    padding: 1px;
+
+}
+
+.head .first-half h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.head .second-half {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.second-half form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.head .second-half input {
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: Helvetica;
+    font-weight: 1000;
+    outline: none;
+    border: none;
+    margin-right: 10px;
+}
+.body {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot {
+    width: 100%;
+    height: 10%;
+}

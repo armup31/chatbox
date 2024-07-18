@@ -1,2 +1,3 @@
 .env
 /src/assets/motor.py
+__pycache__

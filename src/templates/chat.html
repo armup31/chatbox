@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBox</title>
+    <link rel="stylesheet" href="/static/chat.css">
+</head>
+<body>
+
+    <div class="chat-container">
+        <div class="head" style="background-color: {{banner_color}}">
+            <div class="first-half">
+                <div class="info-object">
+                    <img src="{{avatar}}" alt="avatar">
+                    <h3>{{user_name}}</h3>
+                </div>
+            </div>
+            <div class="second-half">
+                <form action="/logout" method="post">
+                    <input type="submit" value="Logout">
+                </form>
+            </div>
+        </div>
+        <div class="body"> 
+            <p>User ID {{uid}}</p>
+        </div>
+        <div class="foot">
+
+        </div>
+    
+</body>
+</html>
